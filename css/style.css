@@ -507,20 +507,9 @@ h2 span {
 }
 
 .footer-logo {
-  width: 200px;
+  width: 300px;
   height: auto;
   display: block;
-
-  transition:
-    transform 0.25s ease,
-    filter 0.25s ease;
-}
-
-.footer-logo-wrap:hover .footer-logo,
-.footer-logo-wrap:focus-visible .footer-logo {
-  transform: translateY(-2px) scale(1.02);
-
-  filter: drop-shadow(0 8px 16px rgba(212, 182, 129, 0.15));
 }
 
 .footer-brand p {
@@ -586,7 +575,7 @@ h2 span {
 .footer-contact-link {
   display: inline-block;
 
-  color: #d4b681;
+  color: var(--gold);
   text-decoration: none;
   font-weight: 600;
 
