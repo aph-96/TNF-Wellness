@@ -97,6 +97,8 @@ a {
 
 .nav a.active {
   color: var(--gold);
+  text-decoration: underline;
+  text-underline-offset: 6px;
 }
 
 .menu-toggle {
@@ -163,9 +165,11 @@ h2 span {
 }
 
 .hero p {
-  font-size: 1.25rem;
+  font-size: 22px;
   color: var(--text);
   margin-bottom: 32px;
+  font-style: italic;
+  font-weight: 700;
 }
 
 .hero-buttons,
